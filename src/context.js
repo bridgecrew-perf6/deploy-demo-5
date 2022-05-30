@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import items from './data'
-import Rooms from './pages/Rooms';
+import Room from './components/Room';
 const RoomContext= React.createContext();
 // <RoomContext.Provider value={}
  class RoomProvider extends Component {
