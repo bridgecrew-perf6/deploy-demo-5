@@ -6,7 +6,9 @@ export default class SingleRoom extends Component {
   render() {
     
     return (
-      <div>Hello from Singleroom page!</div>
+      <div className="single-room">
+        <img className="single-room-images" src=""/>
+      </div>
     )
   }
 }
